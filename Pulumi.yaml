@@ -1,0 +1,3 @@
+name: pulumi-py-webapp
+runtime: python
+description: A simple webapp deployed on k8s

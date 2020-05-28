@@ -1,0 +1,11 @@
+version: '2'
+services:
+  webapp:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - FLASK_ENV=development
+      - MESSAGE=abc123
