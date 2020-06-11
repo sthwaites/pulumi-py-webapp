@@ -1,0 +1,4 @@
+config:
+  aws:region: eu-west-1
+  pulumi-py-webapp:image_name: hw-webapp
+  pulumi-py-webapp:webapp_message: abc123

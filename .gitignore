@@ -1,4 +1,5 @@
 *.pyc
+Pulumi.*.yaml
 venv/
 __pycache__/
 .vscode/
